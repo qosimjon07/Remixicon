@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+.container-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 750px;
+}
+
+.text-container-box {
+    margin: 0 12px 0 16px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #162a48;
+    font-family: OpenSans,PingFang SC,Arial,Helvetica Neue,Microsoft YaHei,sans-serif;
+
+}
+
+.number {
+    width: 48px;
+    height: 22px;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 2px;
+    border: 1px solid #006aff;
+    transition: .2s;
+    color: black;
+    font-weight: 600;
+    padding: 4px 8px;
+}
+
+.number:hover {
+    background-color: #d8e5f7;
+}
+
+.text-container .text {
+    padding: 0 16px;
+    font-weight: 400;
+    color: #162a48;
+    transition: all .2s;
+    cursor: pointer;
+    font-family: OpenSans,PingFang SC,Arial,Helvetica Neue,Microsoft YaHei,sans-serif;
+}
+
+.text-container .text::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 1px;
+    background-color: #006aff;
+    transition: .37s;
+}
+
+.text-container .text:hover {
+    color: #006aff;
+}
+
+.text-container .text:hover::before {
+    width: 40%;
+}
+
+.get-star {
+    margin-left: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.get-text {
+    padding: 0 6px;
+    font-weight: 400;
+    color: #162a48;
+    transition: all .2s;
+    cursor: pointer;
+    margin-right: 1.3rem;
+    font-family: OpenSans,PingFang SC,Arial,Helvetica Neue,Microsoft YaHei,sans-serif;
+}
+
+.abc {
+   height: 100%;
+    border-left: solid 1px #f4f8fc;
+}
+
+.get-button {
+    color: white;
+    font-weight: 600;
+    transition: all .2s;
+    cursor: pointer;
+    font-family: OpenSans,PingFang SC,Arial,Helvetica Neue,Microsoft YaHei,sans-serif;
+    background-color: #0080ff;
+    padding: 21px  30px;
+}
+
+.system-section {
+    height: 298px;
+    text-align: center;
+    background-color: #f4f8fc;
+    font-family: OpenSans,PingFang SC,Arial,Helvetica Neue,Microsoft YaHei,sans-serif;
+
+}
+
+.system-text1 {
+    font-size: 25px;
+    font-weight: 550;
+    color: #162a48;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.system-text2 {
+    font-weight: 400;
+    color: #646668;
+    margin: 0 auto;
+    padding: 24px 0 94px;
+}
