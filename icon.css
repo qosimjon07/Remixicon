@@ -9,12 +9,10 @@
     border-radius: 2px;
     transition: all .2s;
     font-size: 25px;
-    padding: 15px 0px;
-    display: block;
 }
 
 .col:hover {
-    outline: 2px solid blue;
+    outline: 1px solid blue;
 }
 
 .col-text {
@@ -33,6 +31,26 @@
 }
 
 .row > .col i {
+    padding-top: 15px;
     display: block;
     border: 1px solid transparent;
   }
+
+.box {
+    position: relative;
+}
+
+.box:hover::after {
+    content: '+';
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    padding-bottom: 8px;
+}

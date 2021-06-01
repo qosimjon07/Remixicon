@@ -1,0 +1,96 @@
+.modal-content .container {
+    margin: 25px;
+    display: flex;
+}
+.border {
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    padding-top: 8px;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.modal-content .container .text {
+    margin-left: 20px;
+    width: 331px;
+}
+
+.text1 {
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+.text2 div {
+    position: relative;
+    left: 3px;
+    margin-top: 17px;
+    width: 266px;
+    display: inline-block;
+    outline: 1px solid black;
+}
+
+.text2 button {
+    width: 60px;
+    color: blue;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.text2 button:hover {
+    color: white;
+    background-color: blue;
+}
+
+.color {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.color i {
+    height: 100%;
+    width: 2px;
+    background-color: black;
+}
+
+#exampleColorInput {
+    width: 45px;
+}
+
+.size {
+    cursor: pointer;
+    padding: 7px 12px;
+}
+
+#dropdownMenuLink:hover {
+    background-color: blue;
+}
+
+.btn-info {
+    display: flex;
+    align-items: center;
+}
+
+.btn-info span {
+    padding-left: 10px;
+}
+
+.btn-info {
+    margin-left: 8px;
+    font-weight: 600;
+    background-color: rgb(207, 217, 235);
+}
+
+.btn-info:hover {
+    color: white;
+    background-color: blue;
+}
+
+.downloadlink {
+    margin-left: 28px;
+}
